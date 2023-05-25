@@ -13,6 +13,8 @@
 		2AD15E742A1F1B32005D5D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD15E722A1F1B32005D5D22 /* Main.storyboard */; };
 		2AD15E762A1F1B34005D5D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD15E752A1F1B34005D5D22 /* Assets.xcassets */; };
 		2AD15E792A1F1B34005D5D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD15E772A1F1B34005D5D22 /* LaunchScreen.storyboard */; };
+		2AD15E812A1F1D1A005D5D22 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD15E802A1F1D1A005D5D22 /* TableViewController.swift */; };
+		2AD15E832A1F21CF005D5D22 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD15E822A1F21CF005D5D22 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2AD15E752A1F1B34005D5D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AD15E782A1F1B34005D5D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AD15E7A2A1F1B34005D5D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD15E802A1F1D1A005D5D22 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2AD15E822A1F21CF005D5D22 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2AD15E752A1F1B34005D5D22 /* Assets.xcassets */,
 				2AD15E772A1F1B34005D5D22 /* LaunchScreen.storyboard */,
 				2AD15E7A2A1F1B34005D5D22 /* Info.plist */,
+				2AD15E802A1F1D1A005D5D22 /* TableViewController.swift */,
+				2AD15E822A1F21CF005D5D22 /* Contact.swift */,
 			);
 			path = 3m.3hw;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				2AD15E712A1F1B32005D5D22 /* ViewController.swift in Sources */,
 				2AD15E6D2A1F1B32005D5D22 /* AppDelegate.swift in Sources */,
+				2AD15E832A1F21CF005D5D22 /* Contact.swift in Sources */,
 				2AD15E6F2A1F1B32005D5D22 /* SceneDelegate.swift in Sources */,
+				2AD15E812A1F1D1A005D5D22 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
